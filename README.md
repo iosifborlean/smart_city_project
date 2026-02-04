@@ -86,8 +86,8 @@ Il sistema utilizza il protocollo **MQTT** per tutte le comunicazioni: la scelta
 
 | Topic Pattern | Publisher | Subscriber | Purpose |
 |---------------|-----------|------------|---------|
-| `.../bin/+/telemetry` | Smart Bin | Data Manager | Monitoraggio continuo stato e sensori. |
-| `.../bin/+/info` | Smart Bin | Data Manager | Discovery e registrazione nuovi cassonetti. |
-| `.../alert/+/+` | Data Manager | Dashboard/App | Notifica operatori ecologici o vigili del fuoco. |
-| `.../bin/<bin_id>/display` | Data Manager | Smart Bin | Re-indirizzamento utenti verso cassonetti liberi. |
-| `.../bin/<bin_id>/action` | Data Manager | Smart Bin | Attuazione remota di emergenza (es. blocco coperchio). |
+| `bin/+/telemetry` | Smart Bin | Data Manager | Monitoraggio continuo stato e sensori. |
+| `bin/+/info` | Smart Bin | Data Manager | Discovery e registrazione nuovi cassonetti. |
+| `alert/+/+` | Data Manager | Dashboard/App | Notifica operatori ecologici o vigili del fuoco. |
+| `bin/<bin_id>/display` | Data Manager | Smart Bin | Re-indirizzamento utenti verso cassonetti liberi. |
+| `bin/<bin_id>/action` | Data Manager | Smart Bin | Attuazione remota di emergenza (es. blocco coperchio). |
